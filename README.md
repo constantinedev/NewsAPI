@@ -1,4 +1,4 @@
-## Hello World mautirx-bot
+## NEWS API Example mautirx-bot
 
 The is bot for example<br>
 
