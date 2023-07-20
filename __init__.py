@@ -6,7 +6,7 @@ from maubot import Plugin, MessageEvent
 from maubot.handlers import event, command
 from mautrix.types import (
   EventType
-}
+)
 
 ##start your bot code
 class NewsAPI(Plugin):
