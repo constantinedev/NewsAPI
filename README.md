@@ -12,7 +12,7 @@ ones user sent `!search-news` with the search key-words it will trigger the API 
 #### Setup
 
 regist your news-api account with https://newsapi.org/ and you will get the API token<br>
-replace your token to line 22 `YOUR-NEWS-API-TOKEN` to your `API Token`<br>
+replace your token with `YOUR-NEWS-API-TOKEN` to your `API Token`<br>
 run command on your terminal:<br>
 `cd /path/to/your/bot` it should same have the file named `|maubot.yaml|`<br>
 and then`mbc build`<br>
