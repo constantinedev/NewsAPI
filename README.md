@@ -3,7 +3,7 @@
 The is bot for example<br>
 
 * how to call command by send with message
-* how to user requests module's for getting info API.
+* how to user aiohttp module's to getting response API result.
 * how to reply message in formatting.
 
 In case this is showing example for how to use api modules in maubot to reply the result in msg.<br>
@@ -20,8 +20,9 @@ it should output the file `dev.constantinedev.NewsApi-v0.0.1.mbp`<br>
 upload this to your maubot manager and add into your bot account.<br>
 <br>
 **Descraiption:**<br>
-This code for example how to use the requests modules in mautrix bot<br>
-support the basic command to reply messaqge with the reslut<br>
-I won't custom the reply message just for retuen all the json for test.<br>
+I try to update this to using aiohttp to replace the normal `requests` modules<br>
+I wonld say it also work with the response and any action you want to do next.<br>
+Just I still agree if this example for the maubot asyncio logic, aiohttp are really more compatible then requests/urllib3<br>
+
 <br>
 This example are showing how to trigger the request by matrix-bot command<br>
