@@ -17,9 +17,9 @@ class NewsAPI(Plugin):
   #create bot function
   async def request(self, evt: MessageEvent, message: str) -> None:
     newsapi_token = "YOUR-NEWS-API-TOKEN" #get your api from htpps://mewsapi.org/
-    api = f"https://newsapi.org/v2/everything?q={message}&sortBy=publishedAt&apiKey={newsapi_token}"
+    api_uri = f"https://newsapi.org/v2/everything?q={message}&sortBy=publishedAt&apiKey={newsapi_token}"
     async with aiohttp.ClientSession() as session:
-      async with session.get(api) as res:
+      async with session.get(api_uri) as res:
         if res.status == 200:
           jso_ = await res.json()
           for news_ in jso_['articles']:
